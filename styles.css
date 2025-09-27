@@ -1,0 +1,35 @@
+/* Basic reset to ensure consistent styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* A clean, readable font */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    
+    /* Set the background color */
+    background-color: #3498db; /* A pleasant blue color */
+    background-image: linear-gradient(135deg, #3498db 0%, #2c3e50 100%); /* A subtle gradient for a modern look */
+    color: white; /* Default text color */
+}
+
+.container {
+    text-align: center; /* Center the text inside the container */
+    padding: 40px 60px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black box for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid white; /* A line under the name */
+    padding-bottom: 10px;
+}
+
+.contact-detail {
+    font-size: 1.5em;
+    margin-top: 0;
+}
